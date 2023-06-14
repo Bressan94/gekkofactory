@@ -27,9 +27,13 @@ a:active {
 }
 
 /*--------------------------------------------------------------------*/
+@font-face {
+	font-family: "MyFont";
+	src: url('../css/MPLUSRounded1c-Regular.woff');
+  }
+
 body {
-	@import url('https://github.com/Bressan94/gekkofactory/blob/master/css/MPLUSRounded1c-Regular.ttf');
-	font-family: 'Rounded Mplus 1c';
+	font-family: "MyFont";
 	color: #e1e1e1;
 	background-image: contain;
 	margin: 0;
