@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
 html {
 	background: #232323;
 	font-size: 17px;
@@ -29,7 +28,8 @@ a:active {
 
 /*--------------------------------------------------------------------*/
 body {
-	font-family: "Rounded Mplus 1c";
+	@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+	font-family: 'M PLUS Rounded 1c', sans-serif;
 	color: #e1e1e1;
 	background-image: contain;
 	margin: 0;
