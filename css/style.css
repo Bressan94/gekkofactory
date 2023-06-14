@@ -28,8 +28,10 @@ a:active {
 
 /*--------------------------------------------------------------------*/
 body {
-	@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
-	font-family: 'M PLUS Rounded 1c', sans-serif;
+	@fontface{
+	font-family: "Rounded Mplus 1c";
+	src:url("css\MPLUSRounded1c-Regular.ttf");
+	}
 	color: #e1e1e1;
 	background-image: contain;
 	margin: 0;
