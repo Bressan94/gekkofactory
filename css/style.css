@@ -26,6 +26,19 @@ a:active {
   text-decoration: underline;
 }
 
+@media only screen and (min-width: 1920px) {
+	.mobile-off {
+		display: block;
+	}
+	.mobile-on {
+		display: none;
+	}
+	.welcome {
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+}
+
 /*--------------------------------------------------------------------*/
 @font-face {
 	font-family: "MyFont";
@@ -37,6 +50,56 @@ body {
 	color: #e1e1e1;
 	background-image: contain;
 	margin: 0;
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1080px) {
+	.mobile-off {
+		display: block;
+	}
+	.mobile-on {
+		display: none;
+	}
+	.welcome {
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+	.welcome img {
+		width: 100%;
+	}
+	.thumb {
+		width: 100%;
+		max-width: 1076px;
+	}
+	.thumbArt {
+		height: 100%;
+		max-height: 600px;
+	}
+}
+
+@media only screen and (max-width: 1080px) {
+	.mobile-off {
+		display: none;
+	}
+	.mobile-on {
+		display: block;
+	}
+	.welcome {
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+	.welcome img {
+		width: 100%;
+		flex: 1;
+		display: flex;
+	}
+	.thumb {
+		width: 100%;
+		max-width: 1076px;
+	}
+	.thumbArt {
+		height: 100%;
+		max-height: 600px;
+	}
 }
 
 .description{
