@@ -37,6 +37,9 @@ a:active {
 		padding-left: 32px;
 		padding-right: 32px;
 	}
+	.blogpost {
+	width: 1024px;
+	}
 }
 
 /*--------------------------------------------------------------------*/
@@ -74,6 +77,9 @@ body {
 		height: 100%;
 		max-height: 600px;
 	}
+	.blogpost {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 1080px) {
@@ -100,6 +106,9 @@ body {
 		height: 100%;
 		max-height: 600px;
 	}
+	.blogpost {
+		width: 100%;
+	}
 }
 
 .description{
@@ -122,10 +131,6 @@ body {
 	border: 0px;
 	padding-left: 32px;
 	padding-right: 32px;
-}
-
-.blogpost {
-	width: 1024px;
 }
 
 .works {
